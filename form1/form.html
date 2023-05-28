@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="frm.css">
+</head>
+<body>
+    <h1>Registration form</h1>
+    <form action="display.html" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" name="name" placeholder="Enter your name"><br><br>
+        <label for="dob">DOB:</label>
+        <input type="date" name="dob" ><br><br>
+        <label for="gender">Gender:</label>
+        Male<input type="radio" name="gender" value="male">
+        Female<input type="radio" name="gender" value="female">
+        Others<input type="radio" name="gender" value="Others"><br><br>
+        <label for="address">Address:</label><br>
+        <textarea name="Address" value="address" id="" cols="30" rows="5" placeholder="Type something"></textarea>
+        <br><br><label>Department</label>
+        <select name="Dept" >
+            <option>choose</option>
+            <option>CS</option>
+            <option>EC</option>
+            <option>EE</option>
+        </select><br><br>
+        <label for="documents">Id card copy:</label>
+        <input type="submit" value="upload"><br><br>
+        <label for="Interest">Interest:</label>
+        IEDC<input type="checkbox" name="Interest" value="IEDC">
+        IEEE<input type="checkbox" name="Interest" value="IEEE">
+        NSS<input type="checkbox" name="Interest" value="NSS">
+        NCC<input type="checkbox" name="Interest" value="NCC">
+        Others<input type="checkbox" name="Intrest" value="Others"><br><br>
+        <label for="other">Others if specify</label>
+        <input type="text" name="others" placeholder="Enter your interest"><br><br>
+        <input type="submit" value="submit">
+
+
+    </form>
+</body>
+</html>
